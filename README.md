@@ -8,6 +8,7 @@ It is designed to be used with [inflator](https://github.com/faretek1/inflator).
 ## Credits
 
 - https://easings.net/
+- Formula from Vaschex on stackoverflow (optimised): https://stackoverflow.com/questions/46624541/how-to-calculate-this-constant-in-various-easing-functions
 
 ## Installation
 

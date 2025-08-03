@@ -27,8 +27,6 @@
 
 # special calcs
 func get_back_bounce_constant(p=10) {
-    # Formula from Vaschex on stackoverflow (optimised):
-    # https://stackoverflow.com/questions/46624541/how-to-calculate-this-constant-in-various-easing-functions
     # Allows you to calculate a different value that 1.70158 for the back easing. 1.70158 ~= 10% bounce
     
     local p = $p / 10;
