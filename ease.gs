@@ -29,7 +29,7 @@
         _END_DEFINE_EASING
 
 # special calcs
-func get_back_bounce_constant(p=10) {
+func ease_get_back_bounce_constant(p=10) {
     # Allows you to calculate a different value that 1.70158 for the back easing. 1.70158 ~= 10% bounce
     
     local p = $p / 10;
