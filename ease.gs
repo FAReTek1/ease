@@ -3,10 +3,13 @@
 
 # %include ..\math
 
-# conditional compilation doesn't seem to be working...
+
+%if not EASE_SET_EASING_TIMER
 %define EASING_TIMER timer()
+%endif
+
 # Macros to make definitions easier
-%define _GET_ETIMER(s, l) (EASING_TIMER - s) / (l)
+%define _GET_ETIMER(s, l) ((EASING_TIMER) - s) / (l)
 
 %define _START_DEFINE_EASING \
     local x = _GET_ETIMER($startt, $len); \

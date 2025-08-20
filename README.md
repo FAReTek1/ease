@@ -5,6 +5,14 @@
 This is an easing library which is built for [goboscript](https://github.com/aspizu/goboscript).
 It is designed to be used with [inflator](https://github.com/faretek1/inflator).
 
+## Usage
+
+### Configure the easing timer
+
+If you want to set the easing timer to something other than just the timer (e.g. you want to add an offset), do the following above the `%include` of ease.gs:
+- %define `EASING_TIMER` (without brackets) to something new. 
+- `%define EASE_SET_EASING_TIMER`
+
 ## Credits
 
 - https://easings.net/

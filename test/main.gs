@@ -4,6 +4,9 @@ costumes "blank.svg";
 %include inflator/math
 %include inflator/lazy
 
+%define EASE_SET_EASING_TIMER
+%define EASING_TIMER timer() + 0.5
+
 %include inflator/ease
 
 onflag {main;}
